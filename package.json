@@ -1,0 +1,13 @@
+{
+  "name": "playwright-range-fill-repro",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal reproduction: Playwright fill() on <input type=range> throws 'Malformed value' for valid, non-canonical number strings",
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "test": "node repro.js"
+  },
+  "dependencies": {
+    "playwright": "1.64.0"
+  }
+}
